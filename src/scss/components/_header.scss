@@ -1,0 +1,35 @@
+.subheader{
+    background: #272343;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    &-left{
+        p{
+            color: #fff;
+            margin-bottom: 0;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+        }
+    }
+
+    &-right{
+        select{
+            background: transparent;
+            color: #fff;
+            border: none;
+            &:focus{
+                outline: none;
+            }
+            option{
+                color: black;
+
+            }
+        }
+
+        select, a{
+            padding: 0 12px;
+            color: #fff;
+        }
+    }
+}
+
